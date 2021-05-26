@@ -61,10 +61,10 @@ public class Tile {
 		if (status==2) {System.out.print(name);}
 		
 		if (status==1)
-		{String newName=name.substring(0, 8)+"███████|";
+		{String newName=name.substring(0, 8)+  "*******|";
 		System.out.print(newName);}
 		if (status==0)
-		{System.out.print("|██████████████|");}
+		{System.out.print("|**************|");}
 		if (status==3)
 		{System.out.print("|              |");}
 		
